@@ -170,7 +170,7 @@ margin: 10px 15px 10px 0px;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 6vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .7em;
@@ -214,4 +214,14 @@ margin: 10px 15px 10px 0px;
 
 }
   /* End Header */
+}
+
+/********** Sper small devices only **********/
+@media (max-width: 479px) {
+  .container .jumbotron {
+  
+  }
+#menu-tile, #specials-tile{
+  width : 300px;
+  margin: 0 auto 15px;
 }
