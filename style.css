@@ -216,12 +216,11 @@ margin: 10px 15px 10px 0px;
   /* End Header */
 }
 
-/********** Sper small devices only **********/
+/********** Sper small devices only  eg: iphone 4**********/
 @media (max-width: 479px) {
-  .container .jumbotron {
   
-  }
 #menu-tile, #specials-tile{
-  width : 300px;
+  width : 280px;
   margin: 0 auto 15px;
+}
 }
